@@ -1,0 +1,29 @@
+pipeline {
+
+     agent 'any'
+
+     stages {
+          
+         stage("stage1") {
+
+            steps{
+
+               scrip{
+
+                  /*comment1
+                    comment2
+                    comment3*/
+
+                  println "Hi team welcome to devops"
+
+               }   
+
+            }   
+            
+         } 
+
+
+     
+
+
+
